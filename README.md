@@ -22,18 +22,17 @@ Perfect for preventing AFK timeouts or idle disconnects.
 
 - Python 3.7+
 - Packages:
-  ```bash
+  ```
   pip install pyautogui keyboard
-
 
 # Configuration
 
 You can modify these constants at the top of movekey.py
-
+```
 INTERVAL_SEC = 300   # Interval between taps (seconds)
 TAP_MS = 60          # Duration of each key press (milliseconds)
+```
 
-  
 # Disclaimer
 
 Use responsibly. This tool is meant for harmless automation or personal convenience.
